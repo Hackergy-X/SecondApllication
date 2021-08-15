@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="425dp"
+        android:layout_height="172dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="2dp">
+
+        <EditText
+            android:id="@+id/edittext"
+            android:layout_width="268dp"
+            android:layout_height="72dp"
+            android:ems="10"
+            android:hint="Enter your Age"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="125dp"
+            android:layout_height="89dp"
+            android:background="#84F600"
+            android:onClick="none"
+            android:text="Get Age"
+            android:textColorLink="#FD0056" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
